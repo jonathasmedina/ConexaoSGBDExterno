@@ -7,9 +7,9 @@ import java.sql.ResultSet;
 public class DB extends Default implements Runnable{
 
     private Connection conn;
-    private String host = "";
-    private String db = "android"; //nome da database
-    private int port = 2345;
+    private String host = "10.0.2.2";
+    private String db = "postgres"; //nome da database
+    private int port = 5432;
     private String user = "postgres";
     private String pass = "postgres";
     private String url = "jdbc:postgresql://%s:%d/%s"; //host, porta, database
