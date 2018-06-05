@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 public class DB extends Default implements Runnable{
 
     private Connection conn;
-    private String host = "10.0.2.2";
+    private String host = "10.0.2.2"; //localhost emulador Android
     private String db = "postgres"; //nome da database
     private int port = 5432;
     private String user = "postgres";
